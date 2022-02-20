@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+div {
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+p {
+  font-size: 1.25em;
+
+}
+.App {
+  text-align: center;
+}
