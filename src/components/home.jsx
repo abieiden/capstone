@@ -20,7 +20,7 @@ function Home() {
             <h1 class="font-weight-light">About Abi</h1>
             <p>
             Abi Lopez (she/her) is a daughter of Mexican immigrants from Southeast LA. 
-            She’s currently completing her undergraduate degree at Stanford University in 
+            She's currently completing her undergraduate degree at Stanford University in 
             Electrical Engineering with a minor in Human Rights. She strives to leverage her 
             education to advance immigrant rights, racial justice, and environmental justice. 
             Her current project is creating an immigration art exposition at Stanford for students 
