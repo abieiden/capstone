@@ -1,22 +1,22 @@
 import React from "react";
 import Button from 'react-bootstrap/Button'
-import abipic from '../assets/abiparis.jpg'
+import abipic from '../assets/abiportrait.jpg'
 import maya from '../assets/maya.jpg'
 
 function Home() {
   return (
     <div class = "home">
-       <div class="container">
+       <div class="container-fluid" style={{maxWidth: 1500}}>
         <div class="row align-items-center">
-          <div class="col-lg-7">
+          <div class="col-lg-6">
             <img
               class="img-fluid rounded"
               src={abipic}
               alt="Flowers"
-              style={{width: 300, height: 'auto'}}
+              style={{width: 500, height: 'auto'}}
             />
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-6">
             <h1 class="font-weight-light">About Abi</h1>
             <p>
             Abi Lopez (she/her) is a daughter of Mexican immigrants from Southeast LA. 
@@ -31,14 +31,14 @@ function Home() {
         </div>
       </div>
 
-      <div class="container" style={{marginTop: 15 }}>
+      <div class="container-fluid" style={{maxWidth: 1500, marginTop: 15}}>
         <div class="row align-items-center">
           <div class="col-lg-7">
             <img
               class="img-fluid rounded"
               src={maya}
               alt="Art Work"
-              style={{width: 300, height: 'auto'}}
+              style={{width: 500, height: 'auto'}}
             />
           </div>
           <div class="col-lg-5">

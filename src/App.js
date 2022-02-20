@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 import { Route, Link, Routes } from "react-router-dom";
-import { Home, About, Collection } from "./components";
+import { Home, About, Collection, Contributors } from "./components";
 
 function App() {
   return (
     <div className="App">
       <div className="navigation">
         <nav class="navbar navbar-expand navbar-light" >
-          <div class="container">
+          <div class="container-fluid" style={{maxWidth: 1500}}>
             <Link class="navbar-brand" to="/">
               <span class="h3" style={{}}>
                 Exploring Immigrant Identity Through Art
@@ -38,6 +38,13 @@ function App() {
                     </span>
                   </Link>
                 </li>
+                <li>
+                  <Link class="nav-link" to="/contributors">
+                    <span class="h4">
+                      Contributors
+                    </span>
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -48,6 +55,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="collection" element={<Collection />} />
           <Route exact path="about" element={<About />} />
+          <Route exact path="contributors" element={<Contributors />} />
         </Routes>
       </div>
     </div>

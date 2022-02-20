@@ -1,12 +1,12 @@
 import React from "react";
-import abipic from '../assets/abiparis.jpg'
+import abipic from '../assets/abiportrait.jpg'
 
 function About() {
   return (
     <div className="about">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-7">
+          <div class="col-lg-6">
             <img
               class="img-fluid rounded"
               src={abipic}
@@ -14,11 +14,11 @@ function About() {
               style={{width: 500, height: 'auto'}}
             />
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-6">
             <h1 class="font-weight-light">Abi Lopez</h1>
             <p>
             Abi Lopez (she/her) is a daughter of Mexican immigrants from Southeast LA. 
-            She’s currently completing her undergraduate degree at Stanford University in 
+            She's currently completing her undergraduate degree at Stanford University in 
             Electrical Engineering with a minor in Human Rights. She strives to leverage her 
             education to advance immigrant rights, racial justice, and environmental justice. 
             Her current project is creating an immigration art exposition at Stanford for students 
