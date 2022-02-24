@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/capstone/static/css/main.bdbfdc8e.css",
+    "main.js": "/capstone/static/js/main.9b2894bd.js",
+    "static/js/787.3ecd7fac.chunk.js": "/capstone/static/js/787.3ecd7fac.chunk.js",
+    "static/media/TLitong_RBA.pdf": "/capstone/static/media/TLitong_RBA.ede0156308508f4f5505.pdf",
+    "static/media/abiportrait.jpg": "/capstone/static/media/abiportrait.97ab7f48238756cb7376.jpg",
+    "static/media/mayagentlemanwolf.jpg": "/capstone/static/media/mayagentlemanwolf.4bf90b1fecbeb1377f9d.jpg",
+    "static/media/trishaRBA.jpg": "/capstone/static/media/trishaRBA.0c3662958c8fc682897d.jpg",
+    "static/media/mayaartery.jpg": "/capstone/static/media/mayaartery.ae34874ff89dea945520.jpg",
+    "static/media/mayawindow.jpg": "/capstone/static/media/mayawindow.cfb29f2190fab9fa0796.jpg",
+    "static/media/trishakayumanggi.jpg": "/capstone/static/media/trishakayumanggi.c96e8d675da2aa2873f2.jpg",
+    "static/media/mayalemonade.jpg": "/capstone/static/media/mayalemonade.6b3aab47152e2c531d31.jpg",
+    "static/media/trisha.jpg": "/capstone/static/media/trisha.033ebe2251473aeb83f9.jpg",
+    "index.html": "/capstone/index.html",
+    "main.bdbfdc8e.css.map": "/capstone/static/css/main.bdbfdc8e.css.map",
+    "main.9b2894bd.js.map": "/capstone/static/js/main.9b2894bd.js.map",
+    "787.3ecd7fac.chunk.js.map": "/capstone/static/js/787.3ecd7fac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdbfdc8e.css",
+    "static/js/main.9b2894bd.js"
+  ]
+}
