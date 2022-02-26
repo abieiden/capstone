@@ -8,14 +8,15 @@ function App() {
     <div className="App">
        <div class="container-fluid" style={{maxWidth: 1000}}>
       <div className="navigation">
-        <nav class="navbar navbar-expand navbar-light" >
+        <nav class="navbar navbar-collapseOnSelect navbar-expand-md navbar-light" >
           <div class="container-fluid">
             <Link class="navbar-brand" to="/">
               <span class="h3" >
                 Exploring Immigrant Identity Through Art
               </span>
             </Link>
-            <div>
+            <div class="navbar-toggle" aria-controls="responsive-navbar-nav"></div>
+            <div class="navbar-collapse" id="responsive-navbar-nav">
               <ul class="navbar-nav ml-auto">
                 <li>
                   <Link class="nav-link" to="/">
