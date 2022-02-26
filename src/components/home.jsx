@@ -2,8 +2,10 @@ import React from "react";
 import Button from 'react-bootstrap/Button'
 import abipic from '../assets/abiportrait.jpg'
 import maya from '../assets/maya.jpg'
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  let navigate = useNavigate();
   return (
     <div class = "home">
        <div class="container-fluid" style={{maxWidth: 1500}}>
@@ -26,7 +28,7 @@ function Home() {
             Her current project is creating an immigration art exposition at Stanford for students 
             to share their journey exploring their immigrant identity through art.
             </p>
-            <Button variant="outline-secondary" href="/about">Read Bio</Button>
+            <Button variant="outline-secondary" onClick={() => navigate("about")}>Read Bio</Button>
           </div>
         </div>
       </div>
@@ -46,7 +48,7 @@ function Home() {
             <p>
               asdad
             </p>
-            <Button variant="outline-secondary" href="/collection">See Collection</Button>
+            <Button variant="outline-secondary" onClick={() => navigate("/collection")}>See Collection</Button>
           </div>
           
         </div>
