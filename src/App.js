@@ -15,7 +15,7 @@ function App() {
                 Exploring Immigrant Identity Through Art
               </span>
             </Link>
-            <div class="navbar-toggle" aria-controls="responsive-navbar-nav"></div>
+            <div class="navbar-toggler" aria-controls="responsive-navbar-nav"></div>
             <div class="navbar-collapse" id="responsive-navbar-nav">
               <ul class="navbar-nav ml-auto">
                 <li>
