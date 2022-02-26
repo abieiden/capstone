@@ -9,7 +9,7 @@ function App() {
       <div className="navigation">
         <nav class="navbar navbar-expand navbar-light" >
           <div class="container-fluid" style={{maxWidth: 1500}}>
-            <Link class="navbar-brand" to="/capstone">
+            <Link class="navbar-brand" to="/">
               <span class="h3" style={{}}>
                 Exploring Immigrant Identity Through Art
               </span>
@@ -17,11 +17,10 @@ function App() {
             <div>
               <ul class="navbar-nav ml-auto">
                 <li>
-                  <Link class="nav-link" to="/capstone">
+                  <Link class="nav-link" to="/">
                     <span class="h4">
                       Home
                     </span>
-                    <span class="sr-only">(current)</span>
                   </Link>
                 </li>
                 <li>
@@ -52,7 +51,7 @@ function App() {
       </div>
       <div class="main">
         <Routes>
-          <Route exact path="/capstone" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/collection" element={<Collection />} />
           <Route path="/about" element={<About />} />
           <Route path="/contributors" element={<Contributors />} />
@@ -65,7 +64,16 @@ function App() {
 export default App;
 
 
-/*import React from 'react';
+/*
+
+  <Link class="nav-link" to="/">
+                    <span class="h4">
+                      Home
+                    </span>
+                    <span class="sr-only">(current)</span>
+                  </Link>
+
+import React from 'react';
 import './App.css';
 import { Route ,Link, Routes} from "react-router-dom";
 import Home from "./components/home"
