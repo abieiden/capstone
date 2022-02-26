@@ -9,7 +9,7 @@ function App() {
       <div className="navigation">
         <nav class="navbar navbar-expand navbar-light" >
           <div class="container-fluid" style={{maxWidth: 1500}}>
-            <Link class="navbar-brand" to="/">
+            <Link class="navbar-brand" to="/capstone">
               <span class="h3" style={{}}>
                 Exploring Immigrant Identity Through Art
               </span>
@@ -52,10 +52,10 @@ function App() {
       </div>
       <div class="main">
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/collection" element={<Collection />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/contributors" element={<Contributors />} />
+          <Route exact path="/capstone" element={<Home />} />
+          <Route path="/collection" element={<Collection />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contributors" element={<Contributors />} />
         </Routes>
       </div>
     </div>
