@@ -6,9 +6,10 @@ import { Home, About, Collection, Contributors, Footer } from "./components";
 function App() {
   return (
     <div className="App">
+       <div class="container-fluid" style={{maxWidth: 1500}}>
       <div className="navigation">
         <nav class="navbar navbar-expand navbar-light" >
-          <div class="container-fluid" style={{maxWidth: 1500}}>
+          <div class="container-fluid">
             <Link class="navbar-brand" to="/">
               <span class="h3" style={{}}>
                 Exploring Immigrant Identity Through Art
@@ -59,6 +60,7 @@ function App() {
       </div>
       <div class="footer">
         <Footer/>
+      </div>
       </div>
     </div>
   );

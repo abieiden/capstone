@@ -8,7 +8,7 @@ function Home() {
   let navigate = useNavigate();
   return (
     <div class = "home">
-       <div class="container-fluid" style={{maxWidth: 1500}}>
+       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-lg-6">
             <img
@@ -33,7 +33,7 @@ function Home() {
         </div>
       </div>
 
-      <div class="container-fluid" style={{maxWidth: 1500, marginTop: 15}}>
+      <div class="container-fluid" style={{marginTop: 15}}>
         <div class="row align-items-center">
           <div class="col-lg-7">
             <img
