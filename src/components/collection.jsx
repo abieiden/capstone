@@ -15,11 +15,11 @@ function Collection() {
   return (
     <div className="collection">
       <h1>Collection</h1>
-      <Container fluid style={{maxWidth: 1500}} >
+      <Container fluid  >
         <Row >
         <Col>
           <Card>
-            <Card.Img variant="top" src={kayumanggi}  />
+            <Card.Img variant="top" src={kayumanggi} altt="Clip from Kayumanggi Video" />
             <Card.Body>
               <Card.Text>
               Trisha Litong.
@@ -38,7 +38,7 @@ function Collection() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src={RBApic}  />
+            <Card.Img variant="top" src={RBApic} alt="Picture of text from Trisha's RBA" />
             <Card.Body>
             <Card.Text>
               Trisha Litong.
@@ -54,7 +54,7 @@ function Collection() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src={lemonade} />
+            <Card.Img variant="top" src={lemonade} alt="Picture of text from THE PRESBYTERIAN CHURCH ON EUCLID DOESN'T SELL LEMONADE ANYMORE." />
             <Card.Body>
               <Card.Text>
               Maya Salameh.
@@ -71,7 +71,7 @@ function Collection() {
         <Row style={{marginTop: 15 }}>
         <Col>
           <Card>
-            <Card.Img variant="top" src={window} />
+            <Card.Img variant="top" src={window} alt="Picture of text from Open Window at 3PM When I Was Seven."/>
             <Card.Body>
               <Card.Text>
               Maya Salameh.
@@ -85,7 +85,7 @@ function Collection() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src={gentleman} />
+            <Card.Img variant="top" src={gentleman} alt="Picture of text from A GENTLEMAN IS SIMPLY A PATIENT WOLF."  />
             <Card.Body>
               <Card.Text>
               Maya Salameh.
@@ -99,7 +99,7 @@ function Collection() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src={artery} />
+            <Card.Img variant="top" src={artery} alt="Picture of text from How to Braid an Artery." />
             <Card.Body>
               <Card.Text>
               Maya Salameh.

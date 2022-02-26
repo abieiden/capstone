@@ -6,7 +6,7 @@ import { Home, About, Collection, Contributors, Footer } from "./components";
 function App() {
   return (
     <div className="App">
-       <div class="container-fluid" style={{maxWidth: 1000}}>
+      <div class="container-fluid" style={{maxWidth: 1200}}>
       <div className="navigation">
         <nav class="navbar navbar-collapseOnSelect navbar-expand-md navbar-light" >
           <div class="container-fluid">
@@ -51,6 +51,7 @@ function App() {
           </div>
         </nav>
       </div>
+      <div class="container-fluid" style={{maxWidth: 1000}}>
       <div class="main">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -58,6 +59,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="contributors" element={<Contributors />} />
         </Routes>
+      </div>
       </div>
       <div class="footer">
         <Footer/>

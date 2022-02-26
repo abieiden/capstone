@@ -1,6 +1,6 @@
 import React from "react";
-import trisha from '../assets/trisha.jpg'
-import maya from '../assets/maya.jpg'
+import trishalitong from '../assets/trishalitong.jpg'
+import mayasalameh from '../assets/mayasalameh.jpg'
 
 function Contributors() {
     return (
@@ -10,8 +10,8 @@ function Contributors() {
             <div class="col-lg-6">
               <img
                 class="img-fluid rounded"
-                src={trisha}
-                alt="Trisha Litong"
+                src={trishalitong}
+                alt="Trisha Litong Portait"
                 style={{width: 500, height: 'auto'}}
               />
             </div>
@@ -30,8 +30,8 @@ function Contributors() {
             <div class="col-lg-6">
               <img
                 class="img-fluid rounded"
-                src={maya}
-                alt="Maya Salameh"
+                src={mayasalameh}
+                alt="Maya Salameh Portait"
                 style={{width: 500, height: 'auto'}}
               />
             </div>

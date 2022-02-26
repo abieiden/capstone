@@ -1,7 +1,7 @@
 import React from "react";
 import Button from 'react-bootstrap/Button'
-import abipic from '../assets/abiportrait.jpg'
-import maya from '../assets/maya.jpg'
+import abilopez from '../assets/abiportrait.jpg'
+import colors from '../assets/colors.jpg'
 import { useNavigate } from "react-router-dom";
 
 function Home() {
@@ -13,8 +13,8 @@ function Home() {
           <div class="col-lg-6">
             <img
               class="img-fluid rounded"
-              src={abipic}
-              alt="Flowers"
+              src={abilopez}
+              alt="Abi Lopez Portrait"
               style={{width: 500, height: 'auto'}}
             />
           </div>
@@ -38,7 +38,7 @@ function Home() {
           <div class="col-lg-7">
             <img
               class="img-fluid rounded"
-              src={maya}
+              src={colors}
               alt="Art Work"
               style={{width: 500, height: 'auto'}}
             />
