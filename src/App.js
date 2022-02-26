@@ -52,10 +52,10 @@ function App() {
       </div>
       <div class="main">
         <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="collection" element={<Collection />} />
-        <Route exact path="about" element={<About />} />
-        <Route exact path="contributors" element={<Contributors />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="collection" element={<Collection />} />
+          <Route exact path="about" element={<About />} />
+          <Route exact path="contributors" element={<Contributors />} />
         </Routes>
       </div>
     </div>
