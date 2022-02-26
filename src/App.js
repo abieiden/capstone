@@ -21,6 +21,7 @@ function App() {
                     <span class="h4">
                       Home
                     </span>
+                    <span class="sr-only">(current)</span>
                   </Link>
                 </li>
                 <li>
