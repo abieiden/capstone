@@ -1,25 +1,12 @@
 import React from 'react';
 import './App.css';
-import { Routes, Route, Link, Outlet } from "react-router-dom";
+import { Route, Link, Routes } from "react-router-dom";
 import { Home, About, Collection, Contributors } from "./components";
 
 function App() {
   return (
     <div className="App">
-        <Routes>
-          <Route path="/" element={<Layout/>} />
-            <Route index element={<Home/>} />
-            <Route path="about" element={<About/>} />
-            <Route path="collection" element={<Collection/>} />
-            <Route path="contributors"element={<Contributors/>} />
-        </Routes>
-    </div>
-  );
-}
-
-function Layout() {
-  <div className = "page">
-    <div className="navigation">
+      <div className="navigation">
         <nav class="navbar navbar-expand navbar-light" >
           <div class="container-fluid" style={{maxWidth: 1500}}>
             <Link class="navbar-brand" to="/">
@@ -37,21 +24,21 @@ function Layout() {
                   </Link>
                 </li>
                 <li>
-                  <Link class="nav-link" to="about">
+                  <Link class="nav-link" to="/about">
                     <span class="h4">
                       About
                     </span>
                   </Link>
                 </li>
                 <li>
-                  <Link class="nav-link" to="collection">
+                  <Link class="nav-link" to="/collection">
                     <span class="h4">
                       Collection
                     </span>
                   </Link>
                 </li>
                 <li>
-                  <Link class="nav-link" to="contributors">
+                  <Link class="nav-link" to="/contributors">
                     <span class="h4">
                       Contributors
                     </span>
@@ -61,11 +48,17 @@ function Layout() {
             </div>
           </div>
         </nav>
+      </div>
+      <div class="main">
+        <Routes>
+          <Route exact path="/" exact component={Home} />
+            <Route path="/collection" exact component={Collection} />
+            <Route path="/about" exact component={About} />
+            <Route path="/contributors" exact component={Contributors} />
+        </Routes>
+      </div>
     </div>
-    <div className="content">
-      <Outlet />
-    </div>
-  </div>
+  );
 }
 
 export default App;
