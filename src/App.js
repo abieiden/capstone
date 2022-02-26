@@ -17,7 +17,7 @@ function App() {
             <div>
               <ul class="navbar-nav ml-auto">
                 <li>
-                  <Link class="nav-link" to="/">
+                  <Link class="nav-link" to="/capstone">
                     <span class="h4">
                       Home
                     </span>
@@ -53,9 +53,9 @@ function App() {
       <div class="main">
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="collection" element={<Collection />} />
-          <Route exact path="about" element={<About />} />
-          <Route exact path="contributors" element={<Contributors />} />
+          <Route exact path="/collection" element={<Collection />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/contributors" element={<Contributors />} />
         </Routes>
       </div>
     </div>
