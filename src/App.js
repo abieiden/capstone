@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Routes, Route, Link } from "react-router-dom";
-import { Home, About, Collection, Contributors } from "./components";
+import { Home, About, Collection, Contributors, Footer } from "./components";
 
 function App() {
   return (
@@ -57,6 +57,7 @@ function App() {
           <Route path="contributors" element={<Contributors />} />
         </Routes>
       </div>
+      <Footer/>
     </div>
   );
 }

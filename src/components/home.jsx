@@ -48,7 +48,7 @@ function Home() {
             <p>
               asdad
             </p>
-            <Button variant="outline-secondary" onClick={() => navigate("/collection")}>See Collection</Button>
+            <Button variant="outline-secondary" onClick={() => navigate("collection")}>See Collection</Button>
           </div>
           
         </div>
