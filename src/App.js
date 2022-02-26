@@ -9,7 +9,6 @@ function App() {
       <div class="main">
         <Routes>
           <Route exact path="/" element={<Layout />} />
-            <Route index element={<Home />} />
             <Route path="collection" element={<Collection />} />
             <Route path="about" element={<About />} />
             <Route path="contributors" element={<Contributors />} />
