@@ -54,13 +54,3 @@ function Contributors() {
 }
 
 export default Contributors;
-
-/*
-Kayumanggi, meaning "brown-skinned" in Tagalog, is a non-audition 
-Pilipinx cultural arts group at Stanford. We perform traditional Pilipinx folk 
-dances that are as diverse as the many different islands in the Philippines. 
-Kayu aims to promote awareness of Pilipinx culture through dance, art, music, 
-and drama. We hope to create an outlet for self-exploration and discovery, 
-encouraging inclusiveness and openness not just among Pilipinx-Americans, but with 
-the greater Stanford and Bay Area community.
-*/

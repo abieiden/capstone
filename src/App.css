@@ -4,8 +4,11 @@ div {
   font-family: 'Nanum Myeongjo', serif;
 }
 
+h1 {
+  font-size: 2em;
+}
 p {
-  font-size: 1.25em;
+  font-size: 1.125em;
 
 }
 .App {
