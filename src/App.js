@@ -9,7 +9,7 @@ function App() {
       <div className="navigation">
         <nav class="navbar navbar-expand navbar-light" >
           <div class="container-fluid" style={{maxWidth: 1500}}>
-            <Link class="navbar-brand" to="/">
+            <Link class="navbar-brand" to="/capstone">
               <span class="h3" style={{}}>
                 Exploring Immigrant Identity Through Art
               </span>
@@ -17,28 +17,28 @@ function App() {
             <div>
               <ul class="navbar-nav ml-auto">
                 <li>
-                  <Link class="nav-link" to="/">
+                  <Link class="nav-link" to="/capstone">
                     <span class="h4">
                       Home
                     </span>
                   </Link>
                 </li>
                 <li>
-                  <Link class="nav-link" to="/about">
+                  <Link class="nav-link" to="/capstone/about">
                     <span class="h4">
                       About
                     </span>
                   </Link>
                 </li>
                 <li>
-                  <Link class="nav-link" to="/collection">
+                  <Link class="nav-link" to="/capstone/collection">
                     <span class="h4">
                       Collection
                     </span>
                   </Link>
                 </li>
                 <li>
-                  <Link class="nav-link" to="/contributors">
+                  <Link class="nav-link" to="/capstone/contributors">
                     <span class="h4">
                       Contributors
                     </span>
@@ -51,10 +51,10 @@ function App() {
       </div>
       <div class="main">
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/collection" element={<Collection />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contributors" element={<Contributors />} />
+          <Route exact path="/capstone" exact component={Home} />
+          <Route path="/capstone/collection" exact component={Collection} />
+          <Route path="/capstone/about" exact component={About} />
+          <Route path="/capstone/contributors" exact component={Contributors} />
         </Routes>
       </div>
     </div>

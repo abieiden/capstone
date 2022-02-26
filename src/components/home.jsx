@@ -26,7 +26,7 @@ function Home() {
             Her current project is creating an immigration art exposition at Stanford for students 
             to share their journey exploring their immigrant identity through art.
             </p>
-            <Button variant="outline-secondary" href="/about">Read Bio</Button>
+            <Button variant="outline-secondary" href="/capstone/about">Read Bio</Button>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ function Home() {
             <p>
               asdad
             </p>
-            <Button variant="outline-secondary" href="/collection">See Collection</Button>
+            <Button variant="outline-secondary" href="/capstone/collection">See Collection</Button>
           </div>
           
         </div>
