@@ -57,7 +57,9 @@ function App() {
           <Route path="contributors" element={<Contributors />} />
         </Routes>
       </div>
-      <Footer/>
+      <div class="footer">
+        <Footer/>
+      </div>
     </div>
   );
 }
