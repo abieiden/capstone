@@ -9,9 +9,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout/>} />
             <Route index element={<Home/>} />
-            <Route path="/about" element={<About/>} />
-            <Route path="/collection" element={<Collection/>} />
-            <Route path="/contributors"element={<Contributors/>} />
+            <Route path="about" element={<About/>} />
+            <Route path="collection" element={<Collection/>} />
+            <Route path="contributors"element={<Contributors/>} />
         </Routes>
     </div>
   );
@@ -37,21 +37,21 @@ function Layout() {
                   </Link>
                 </li>
                 <li>
-                  <Link class="nav-link" to="/about">
+                  <Link class="nav-link" to="about">
                     <span class="h4">
                       About
                     </span>
                   </Link>
                 </li>
                 <li>
-                  <Link class="nav-link" to="/collection">
+                  <Link class="nav-link" to="collection">
                     <span class="h4">
                       Collection
                     </span>
                   </Link>
                 </li>
                 <li>
-                  <Link class="nav-link" to="/contributors">
+                  <Link class="nav-link" to="contributors">
                     <span class="h4">
                       Contributors
                     </span>
