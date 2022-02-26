@@ -53,9 +53,9 @@ function App() {
       <div class="main">
         <Routes>
           <Route exact path="/" exact component={Home} />
-            <Route path="/collection" exact component={Collection} />
-            <Route path="/about" exact component={About} />
-            <Route path="/contributors" exact component={Contributors} />
+            <Route path="collection" exact component={Collection} />
+            <Route path="about" exact component={About} />
+            <Route path="contributors" exact component={Contributors} />
         </Routes>
       </div>
     </div>
