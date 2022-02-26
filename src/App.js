@@ -11,7 +11,7 @@ function App() {
         <nav class="navbar navbar-expand navbar-light" >
           <div class="container-fluid">
             <Link class="navbar-brand" to="/">
-              <span class="h3" style={{}}>
+              <span class="h3" >
                 Exploring Immigrant Identity Through Art
               </span>
             </Link>
