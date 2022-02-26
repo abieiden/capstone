@@ -6,7 +6,7 @@ import { Home, About, Collection, Contributors, Footer } from "./components";
 function App() {
   return (
     <div className="App">
-       <div class="container-fluid" style={{maxWidth: 1500}}>
+       <div class="container-fluid" style={{maxWidth: 1000}}>
       <div className="navigation">
         <nav class="navbar navbar-expand navbar-light" >
           <div class="container-fluid">
