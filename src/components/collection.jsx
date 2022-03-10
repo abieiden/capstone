@@ -15,6 +15,15 @@ function Collection() {
   return (
     <div className="collection">
       <h1>Collection</h1>
+      <h3> [Expo Title] is a collection of art created by members of the Stanford community to explore their immigrant identity. 
+            As college students, we are inherently in a state of growth, whether it is in our classes widening our understanding, 
+            or making decisions that shape our future and who we are. For many of us, this time of exploration has also focused on 
+            our immigrant identity. The collection includes poems, essays, paintings, performances, and even computer science projects 
+            that share community narratives from many immigrant backgrounds. Through diverse art and multidimensional perspectives, 
+            this exhibition presents an opportunity to contextualize and understand a complex topic like immigration. This 
+            exhibition creates space for important discourse and encourages viewers to reimagine identity and immigration. 
+            But more importantly, [Expo Title] empowers contributors to explore their identity and reclaim their narrative. 
+            I hope to present the art exposition near the end of Spring Quarter at White Plaza.</h3>
       <Container fluid  >
         <Row >
         <Col>
