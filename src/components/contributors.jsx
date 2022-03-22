@@ -49,6 +49,61 @@ function Contributors() {
             </div>
           </div>
         </div>
+        <div class="container" style={{marginTop: 15 }}>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img
+                class="img-fluid rounded"
+                src={victoriachiek}
+                alt="Victoria Sampors Chiek  Portait"
+                style={{width: 500, height: 'auto'}}
+              />
+            </div>
+            <div class="col-lg-6">
+              <h1 class="font-weight-light">Victoria Sampors Chiek</h1>
+              <p>
+              Victoria is a current B.A. candidate in Anthropology and B.A. Candidate for 
+              Art Practice at Stanford University graduating in 2023, and a 2020 Chappell 
+              Lougee Scholar. Her research focuses on colorism and indigeneity in Cambodia 
+              as well as Cambodian diaspora and transnational experiences. Their interests 
+              comprise resistance against inequity around the globe and vernacularization of 
+              culture in the diaspora to vocal performance and figure skating. She has also 
+              worked with Cambodian Genocide narrative archival, her most recent project being 
+              assisting with the 40th year anniversary exhibit at the Tuol Sleng Genocide 
+              Museum in Phnom Penh. Victoria lived in Saugus and Lynn, Massachusetts where she 
+              now likes to spend her free time oil painting and cooking with friends.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container" style={{marginTop: 15 }}>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img
+                class="img-fluid rounded"
+                src={vanessaveak}
+                alt="Vanessa Lakana Veak Portait"
+                style={{width: 500, height: 'auto'}}
+              />
+            </div>
+            <div class="col-lg-6">
+              <h1 class="font-weight-light">Vanessa Lakana Veak</h1>
+              <p>
+              Vanessa is a current M.A. and B.A. candidate in Sociology on the Data Science, 
+              Markets and Management Track with a double minor in Human Rights and Education at 
+              Stanford University with an anticipated graduation year of 2023, and a 2020 Chappell 
+              Lougee Scholar. Her research interests primarily focus on advocating for indigenous 
+              rights in Southeast Asia, the LGBTQ+ community, education equity through policy and 
+              outreach for marginalized communities, and all of its intersectionality. Social identity 
+              being constantly accompanied by the social structure and contexts surrounding it further 
+              inspires Vanessa to navigate how colorism plays an integral aspect in navigating their own 
+              life, developing research, and position in academia. Vanessa grew up predominantly in Fairfield, 
+              Ohio, eating yao hon and lychees with family on special occasions, while thinking about the next 
+              time they can go rock climbing.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
         );
 }
