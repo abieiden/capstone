@@ -1,6 +1,8 @@
 import React from "react";
 import trishalitong from '../assets/trishalitong.jpg'
 import mayasalameh from '../assets/mayasalameh.jpg'
+import victoriachiek from '../assets/victoriachiek.jpg'
+import vanessaveak from '../assets/vanessaveak.jpg'
 
 function Contributors() {
     return (

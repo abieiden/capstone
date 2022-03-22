@@ -10,6 +10,7 @@ import gentleman from '../assets/mayagentlemanwolf.jpg'
 import lemonade from '../assets/mayalemonade.jpg'
 import artery from '../assets/mayaartery.jpg'
 import window from '../assets/mayawindow.jpg'
+import coloringcambodia from '../assets/coloringcambodia.jpg'
 
 function Collection() {
   return (
