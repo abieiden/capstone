@@ -1,7 +1,7 @@
 import React from "react";
 import Button from 'react-bootstrap/Button'
 import abilopez from '../assets/abiportrait.jpg'
-import kayumanggi from '../assets/trishakayumanggi.jpg'
+import collectioncover from '../assets/collectioncover.jpg'
 import { useNavigate } from "react-router-dom";
 
 function Home() {
@@ -13,7 +13,7 @@ function Home() {
         <div class="col-lg-7">
             <img
               class="img-fluid rounded"
-              src={kayumanggi}
+              src={collectioncover}
               alt="Clip from Kayumanggi Video, submitted by Trisha Litong"
               style={{width: 500, height: 'auto'}}
             />
