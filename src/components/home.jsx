@@ -26,7 +26,7 @@ function Home() {
             that share community narratives from many immigrant backgrounds. This exhibition creates space for important 
             discourse and encourages viewers to reimagine identity and immigration. But more importantly, [Expo Title] 
             empowers contributors to explore their identity and reclaim their narrative. 
-            I hope to present the art exposition near the end of Spring Quarter at White Plaza.
+            I hope to present the art exposition near the end of Spring Quarter.
 
             </p>
             <Button variant="outline-secondary" onClick={() => navigate("collection")}>See Collection</Button>
