@@ -25,7 +25,7 @@ function Collection() {
             this exhibition presents an opportunity to contextualize and understand a complex topic like immigration. This 
             exhibition creates space for important discourse and encourages viewers to reimagine identity and immigration. 
             But more importantly, [Expo Title] empowers contributors to explore their identity and reclaim their narrative. 
-            I hope to present the art exposition near the end of Spring Quarter at White Plaza.</p>
+            I hope to present the art exposition near the end of Spring Quarter.</p>
 
       <p>If you would like to contribute art, please fill out this <a href={"https://forms.gle/6BsFh65SQBXPE8jp7"}>Google Form</a>. 
         If you have any questions, comments, suggestions, or want to get involved with planning, please reach out to Abi Lopez via email abieiden@stanford.edu. 
