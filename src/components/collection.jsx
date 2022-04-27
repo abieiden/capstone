@@ -11,6 +11,10 @@ import lemonade from '../assets/mayalemonade.jpg'
 import artery from '../assets/mayaartery.jpg'
 import window from '../assets/mayawindow.jpg'
 import coloringcambodia from '../assets/coloringcambodia.jpg'
+import bluegirlpic from '../assets/bluegirl.jpg'
+import bluegirldoc from '../assets/bluegirldoc.docx'
+import awaculturalphotoshoot from '../assets/awaculturalphotoshoot.jpg'
+import walmartparking from '../assets/walmartparking.jpg'
 
 function Collection() {
   return (
@@ -135,7 +139,7 @@ function Collection() {
             <Card.Img variant="top" src={coloringcambodia} alt="Cambodian Woman" />
             <Card.Body>
               <Card.Text>
-              Vanessa Lakana Veak and Victoria Sampors Chiek 
+              Vanessa Lakana Veak and Victoria Sampors Chiek.
               </Card.Text>
               <Card.Text>
               Coloring Cambodia is an archival project comprising interviews and portraits of 
@@ -146,7 +150,72 @@ function Collection() {
             </Card.Body>
           </Card>
           </Col>
+          <Col>
+          <Card>
+            <Card.Img variant="top" src={bluegirlpic} alt="Picture of Blue Girl text" />
+            <Card.Body>
+            <Card.Text>
+            Janica Mendillo.
+            </Card.Text>
+            <Card.Text>
+            Blue Girl explores a middle school girl's first period. It reflects on the mysteries of 
+            the body young women exist in and the inability to speak about its phenomena with their immigrant mothers.
+            </Card.Text>
+            <Card.Link href={bluegirldoc}>Read Here</Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
         </Row>
+        <Row>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={awaculturalphotoshoot} alt="AWA Cultural Photoshoot" />
+            <Card.Body>
+              <Card.Text>
+              Rachel Koo and AWA.
+              </Card.Text>
+              <Card.Text>
+              AWA provides a space for Asian and Asian-American womxn to gather in solidarity with one another and 
+              deepen our understanding of ethnic identity while creating lasting bonds. AWA is an ethnic, cultural 
+              and social organization that exists to raise awareness about Asian womxn identity and gender-based violence, 
+              standing in solidarity with other womxn of color on campus. 
+
+
+              The Cultural photoshoot is both a social art piece and communal bonding event that celebrates the multicultural 
+              backgrounds of the Asian Women's Alliance family whether it be in the form of representing cultures from home, 
+              national pride, personal identity, and etc. This photoshoot aims to create a community of open-mindedness and 
+              acceptance across the diverse “Asian/Asian American” label that we live under, pushing us to explore our cultural 
+              identity especially in relations to cultural diversity in the United States. Our outfits may vary from person to person, 
+              but the goal is to celebrate our own cultures and learn about each other's cultures in a respectful way. These may 
+              include flags, traditional cultural wear, cultural patterns, flag colors, and etc. We will wear uniform Asian Women's 
+              Alliance masks as a representation of the political cultural identity of Asian Women in the US especially in protest of 
+              the rise in Asian hate this past year and throughout the pandemic. These masks will be symbolic of Asian women and their 
+              struggles to find their voices to speak up against societal expectations as well as the defiance against Asian hate during 
+              the pandemic. We will host a teach-in for this photoshoot to explore the boundaries of embracing one's cultural identity 
+              through a conversation about Cultural Appreciation vs Cultural Appropriation. This conversation aims to critically examine 
+              our unique individual relationships with our own cultures and how they may differ from person to person.
+              </Card.Text>
+              <Card.Link href="https://asianwomensalliance.weebly.com/">Learn More Here</Card.Link>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col>
+          <Card>
+            <Card.Img variant="top" src={walmartparking} alt="Walmart Parking Lot Painting" />
+            <Card.Body>
+              <Card.Text>
+              Song Wu.
+              </Card.Text>
+              <Card.Text>
+              Walmart Parking Lot. Oil on canvas, 16" x 20". Created June 11, 2021. 
+              A painting of my mom holding me as a child as we stand to take a photo in the Walmart parking lot.
+              </Card.Text>
+              <Card.Link href="https://asianwomensalliance.weebly.com/">Learn More Here</Card.Link>
+            </Card.Body>
+          </Card>
+          </Col>
+        </Row>
+
       </Container>
       </div>
       

@@ -3,6 +3,10 @@ import trishalitong from '../assets/trishalitong.jpg'
 import mayasalameh from '../assets/mayasalameh.jpg'
 import victoriachiek from '../assets/victoriachiek.jpg'
 import vanessaveak from '../assets/vanessaveak.jpg'
+import janicamendillo from '../assets/janicamendillo.jpg'
+import elviraprieto from '../assets/elviraprieto.jpg'
+import rachelkoo from '../assets/rachelkoo.jpg'
+import drewvallero from '../assets/drewvallero.jpg'
 
 function Contributors() {
     return (
@@ -104,6 +108,100 @@ function Contributors() {
               time they can go rock climbing.
               </p>
             </div>
+          </div>
+        </div>
+        <div class="container" style={{marginTop: 15 }}>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img
+                class="img-fluid rounded"
+                src={janicamendillo}
+                alt="Janica Mendillo Portait"
+                style={{width: 500, height: 'auto'}}
+              />
+            </div>
+            <div class="col-lg-6">
+              <h1 class="font-weight-light">Janica Mendillo</h1>
+              <p>
+              Janica Mendillo (she/her) is an Earth Systems senior studying energy and climate policy. 
+              She was born in the Philippines and immigrated to the U.S. at age eight.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container" style={{marginTop: 15 }}>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img
+                class="img-fluid rounded"
+                src={elviraprieto}
+                alt="Elvira Prieto Portait"
+                style={{width: 500, height: 'auto'}}
+              />
+            </div>
+            <div class="col-lg-6">
+              <h1 class="font-weight-light">Elvira Prieto</h1>
+              <p>
+              Elvira Prieto was born and raised in California's Central San Joaquin Valley working alongside 
+              her parents and siblings in the grape fields and fruit packing sheds of Reedley, CA and surrounding 
+              communities in Fresno County. She is the first woman in her family to attend college, receiving her 
+              B.A. in Psychology from Stanford University and an Ed.M. in Administration, Planning and Social Policy 
+              from the Harvard Graduate School of Education. She currently serves as the Associate Dean of Students 
+              and Director of El Centro Chicano y Latino. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container" style={{marginTop: 15 }}>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img
+                class="img-fluid rounded"
+                src={rachelkoo}
+                alt="Rachel Koo Portait"
+                style={{width: 500, height: 'auto'}}
+              />
+            </div>
+            <div class="col-lg-6">
+              <h1 class="font-weight-light">Rachel Koo</h1>
+              <p>
+              Rachel Koo is a senior majoring in Human Biology with a concentration on Social Determinants of Health. 
+              She has been heavily involved in community-based participatory research throughout her undergraduate career, 
+              specifically regarding immigrant women and their experiences with intimate partner violence (IPV). Her honors 
+              research study explores the intersectional effects of anti-Asian racism on Asian women survivors of IPV during 
+              COVID-19 in partnership with the community organization, Asian Americans for Community Involvement. She has 
+              recently been awarded the Stanford Asian American Award for Undergraduate Gender/Sexuality Issues. Rachel 
+              co-founded the Asian Women's Alliance and is the Service and Advocacy Executive Chair.  
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container" style={{marginTop: 15 }}>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img
+                class="img-fluid rounded"
+                src={drewvallero}
+                alt="Drew Vallero Portait"
+                style={{width: 500, height: 'auto'}}
+              />
+            </div>
+            <div class="col-lg-6">
+              <h1 class="font-weight-light">Drew Vallero</h1>
+              <p>
+              Drew Vallero (he/him) is a third year undergraduate pursuing a B.S. in Architectural Design and a minor in Art 
+              Practice. His art celebrates brown bodies and explores his Filipino-American voice and identity through oil painting. 
+              He was born and raised in Davis, California.  
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container" style={{marginTop: 15 }}>
+          <div class="align-items-center">
+              <h1 class="font-weight-light">Song Wu</h1>
+              <p>
+              Song Wu (any pronouns) is third year undergraduate pursuing a B.A. in Art Practice and a B.S. in Mechanical Engineering.  
+              </p>
           </div>
         </div>
       </div>
