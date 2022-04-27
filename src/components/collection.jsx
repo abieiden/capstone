@@ -12,9 +12,13 @@ import artery from '../assets/mayaartery.jpg'
 import window from '../assets/mayawindow.jpg'
 import coloringcambodia from '../assets/coloringcambodia.jpg'
 import bluegirlpic from '../assets/bluegirl.jpg'
-import bluegirldoc from '../assets/bluegirldoc.docx'
+import bluegirldoc from '../assets/bluegirldoc.pdf'
 import awaculturalphotoshoot from '../assets/awaculturalphotoshoot.jpg'
+import rachelculturalphotoshoot from '../assets/rachelculturalphotoshoot.jpg'
 import walmartparking from '../assets/walmartparking.jpg'
+import escribo from '../assets/escribo.jpg'
+import enelfin from '../assets/enelfin.jpg'
+import photochildhood from '../assets/astillphotographofmychildhood.jpg'
 
 function Collection() {
   return (
@@ -36,7 +40,7 @@ function Collection() {
       </p>
 
 
-      <Container fluid  >
+      <Container fluid >
         <Row >
         <Col>
           <Card>
@@ -57,38 +61,7 @@ function Collection() {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          <Card>
-            <Card.Img variant="top" src={RBApic} alt="Picture of text from Trisha's RBA" />
-            <Card.Body>
-            <Card.Text>
-              Trisha Litong.
-            </Card.Text>
-            <Card.Text>
-            Regaining Control of the Filipino-American Identity through Stanford University's 
-            Pilipino-American Student Union (PASU). Research Based Analysis Paper written for 
-            Stanford's Program in Writing and Rhetoric. 
-            </Card.Text>
-            <Card.Link href={RBApdf}>Read Here</Card.Link>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card>
-            <Card.Img variant="top" src={lemonade} alt="Picture of text from THE PRESBYTERIAN CHURCH ON EUCLID DOESN'T SELL LEMONADE ANYMORE." />
-            <Card.Body>
-              <Card.Text>
-              Maya Salameh.
-              </Card.Text>
-              <Card.Text>
-              THE PRESBYTERIAN CHURCH ON EUCLID DOESN'T SELL LEMONADE ANYMORE. Published in Anomaly. 
-              </Card.Text>
-              <Card.Link href="https://anmly.org/ap33/maya-salameh/">Read Here</Card.Link>
-            </Card.Body>
-          </Card>
-        </Col>
         </Row>
-
         <Row style={{marginTop: 15 }}>
         <Col>
           <Card>
@@ -133,7 +106,23 @@ function Collection() {
           </Card>
         </Col>
         </Row>
-        <Row>
+        <Row style={{marginTop: 15 }}>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={RBApic} alt="Picture of text from Trisha's RBA" />
+            <Card.Body>
+            <Card.Text>
+              Trisha Litong.
+            </Card.Text>
+            <Card.Text>
+            Regaining Control of the Filipino-American Identity through Stanford University's 
+            Pilipino-American Student Union (PASU). Research Based Analysis Paper written for 
+            Stanford's Program in Writing and Rhetoric. 
+            </Card.Text>
+            <Card.Link href={RBApdf}>Read Here</Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
           <Col>
           <Card>
             <Card.Img variant="top" src={coloringcambodia} alt="Cambodian Woman" />
@@ -166,7 +155,7 @@ function Collection() {
           </Card>
         </Col>
         </Row>
-        <Row>
+        <Row style={{marginTop: 15 }}>
         <Col>
           <Card>
             <Card.Img variant="top" src={awaculturalphotoshoot} alt="AWA Cultural Photoshoot" />
@@ -199,6 +188,21 @@ function Collection() {
             </Card.Body>
           </Card>
           </Col>
+          </Row>
+          <Row style={{marginTop: 15 }}>
+          <Col>
+          <Card>
+            <Card.Img variant="top" src={rachelculturalphotoshoot} alt="Picture of Rachel Koo from Cultural Photoshoot" />
+            <Card.Body>
+              <Card.Text>
+               Rachel Koo
+              </Card.Text>
+              <Card.Text>
+              Rachel Koo participating in AWA Cultural Photoshoot. 
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
           <Col>
           <Card>
             <Card.Img variant="top" src={walmartparking} alt="Walmart Parking Lot Painting" />
@@ -210,12 +214,68 @@ function Collection() {
               Walmart Parking Lot. Oil on canvas, 16" x 20". Created June 11, 2021. 
               A painting of my mom holding me as a child as we stand to take a photo in the Walmart parking lot.
               </Card.Text>
-              <Card.Link href="https://asianwomensalliance.weebly.com/">Learn More Here</Card.Link>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col>
+          <Card>
+            <Card.Img variant="top" src={lemonade} alt="Picture of text from THE PRESBYTERIAN CHURCH ON EUCLID DOESN'T SELL LEMONADE ANYMORE." />
+            <Card.Body>
+              <Card.Text>
+              Maya Salameh.
+              </Card.Text>
+              <Card.Text>
+              THE PRESBYTERIAN CHURCH ON EUCLID DOESN'T SELL LEMONADE ANYMORE. Published in Anomaly. 
+              </Card.Text>
+              <Card.Link href="https://anmly.org/ap33/maya-salameh/">Read Here</Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
+        </Row>
+        <Row style={{marginTop: 15 }}>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={enelfin} alt="Picture of text from En el Fin" />
+            <Card.Body>
+              <Card.Text>
+              Elvira Prieto.
+              </Card.Text>
+              <Card.Text>
+              En el Fin from SCHOOLING chapter in An (Im)possible Life: Poesía y Testimonio in the Borderlands, published in 2015. 
+              </Card.Text>
+              <Card.Link href="http://www.elviraprieto.com/">Learn more about Elvira Prieto and her Book Here</Card.Link>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col>
+          <Card>
+            <Card.Img variant="top" src={escribo} alt="Picture of text from escribo" />
+            <Card.Body>
+              <Card.Text>
+              Elvira Prieto.
+              </Card.Text>
+              <Card.Text>
+              escribo from FAMILIA chapter in An (Im)possible Life: Poesía y Testimonio in the Borderlands, published in 2015. 
+              </Card.Text>
+              <Card.Link href="http://www.elviraprieto.com/">Learn more about Elvira Prieto and her Book Here</Card.Link>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col>
+          <Card>
+            <Card.Img variant="top" src={photochildhood} alt="Picture of text from A Still Photograph of My Childhood" />
+            <Card.Body>
+              <Card.Text>
+              Elvira Prieto.
+              </Card.Text>
+              <Card.Text>
+              A Still Photograph of My Childhood from familia chapter in An (Im)possible Life: Poesía y Testimonio in the Borderlands, published in 2015. 
+              </Card.Text>
+              <Card.Link href="http://www.elviraprieto.com/">Learn more about Elvira Prieto and her Book Here</Card.Link>
             </Card.Body>
           </Card>
           </Col>
         </Row>
-
       </Container>
       </div>
       
