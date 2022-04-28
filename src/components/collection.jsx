@@ -184,7 +184,7 @@ function Collection() {
               through a conversation about Cultural Appreciation vs Cultural Appropriation. This conversation aims to critically examine 
               our unique individual relationships with our own cultures and how they may differ from person to person.
               </Card.Text>
-              <Card.Link href="https://asianwomensalliance.weebly.com/">Learn More Here</Card.Link>
+              <Card.Link href="https://asianwomensalliance.weebly.com/">Learn about AWA Here</Card.Link>
             </Card.Body>
           </Card>
           </Col>
