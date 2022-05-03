@@ -198,7 +198,8 @@ function Collection() {
                Rachel Koo
               </Card.Text>
               <Card.Text>
-              Rachel Koo participating in AWA Cultural Photoshoot. 
+              Rachel Koo wearing a traditional Korean Hanbok top with a western tulle skirt to symbolize her bicultural identity as 
+              part of the AWA cultural photoshoot.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -258,6 +259,49 @@ function Collection() {
               escribo from FAMILIA chapter in An (Im)possible Life: Poesía y Testimonio in the Borderlands, published in 2015. 
               </Card.Text>
               <Card.Link href="http://www.elviraprieto.com/">Learn more about Elvira Prieto and her Book Here</Card.Link>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col>
+          <Card>
+            <Card.Img variant="top" src={photochildhood} alt="Picture of text from A Still Photograph of My Childhood" />
+            <Card.Body>
+              <Card.Text>
+              Elvira Prieto.
+              </Card.Text>
+              <Card.Text>
+              A Still Photograph of My Childhood from familia chapter in An (Im)possible Life: Poesía y Testimonio in the Borderlands, published in 2015. 
+              </Card.Text>
+              <Card.Link href="http://www.elviraprieto.com/">Learn more about Elvira Prieto and her Book Here</Card.Link>
+            </Card.Body>
+          </Card>
+          </Col>
+        </Row>
+        <Row>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={stop} alt="STOP" />
+            <Card.Body>
+              <Card.Text>
+              Drew Vallero.
+              </Card.Text>
+              <Card.Text>
+              “STOP!” Acrylic on metal panel, 24”x24”. I made this monochrome self portrait as we were sent home for the pandemic in 2020. 
+              It serves as a relic of where I was at that time and how seemingly overnight, everything—plans, futures, relationships—halted to a stop.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col>
+          <Card>
+            <Card.Img variant="top" src={matthew} alt="Picture of text from A Still Photograph of My Childhood" />
+            <Card.Body>
+              <Card.Text>
+              Drew Vallero.
+              </Card.Text>
+              <Card.Text>
+              “Matthew,” oil on canvas. This is a portrait of my younger brother that celebrates his youth and the complexities of brown skin in sunlight.
+              </Card.Text>
             </Card.Body>
           </Card>
           </Col>
