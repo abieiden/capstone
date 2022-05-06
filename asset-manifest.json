@@ -1,27 +1,37 @@
 {
   "files": {
     "main.css": "/capstone/static/css/main.d940ad14.css",
-    "main.js": "/capstone/static/js/main.6a525fa3.js",
+    "main.js": "/capstone/static/js/main.00620cc7.js",
     "static/js/787.3ecd7fac.chunk.js": "/capstone/static/js/787.3ecd7fac.chunk.js",
     "static/media/rachelculturalphotoshoot.jpg": "/capstone/static/media/rachelculturalphotoshoot.33ee3f5049b7a50f10a2.jpg",
     "static/media/awaculturalphotoshoot.jpg": "/capstone/static/media/awaculturalphotoshoot.a1144ca9a9b9731b5e4b.jpg",
+    "static/media/christinashen.jpg": "/capstone/static/media/christinashen.2aed87fdc611a600ef5c.jpg",
     "static/media/victoriachiek.jpg": "/capstone/static/media/victoriachiek.bc84860106ae4300f74a.jpg",
+    "static/media/matthew.jpg": "/capstone/static/media/matthew.343cf00af919a4a5af1e.jpg",
     "static/media/vanessaveak.jpg": "/capstone/static/media/vanessaveak.d347a383da6f34ec0c6c.jpg",
     "static/media/janicamendillo.jpg": "/capstone/static/media/janicamendillo.6685c9e44e30c9605334.jpg",
     "static/media/trishalitong.jpg": "/capstone/static/media/trishalitong.2b03bc33230036c1bf42.jpg",
     "static/media/walmartparking.jpg": "/capstone/static/media/walmartparking.534861685d6d42c898b7.jpg",
     "static/media/drewvallero.jpg": "/capstone/static/media/drewvallero.1b1c0cc5c6efd78d3fcf.jpg",
     "static/media/mayasalameh.jpg": "/capstone/static/media/mayasalameh.a0a73626f4ab554f11c6.jpg",
+    "static/media/immigrantties.jpg": "/capstone/static/media/immigrantties.3c2239f20104799917d0.jpg",
     "static/media/TLitong_RBA.pdf": "/capstone/static/media/TLitong_RBA.ede0156308508f4f5505.pdf",
     "static/media/abiportrait.jpg": "/capstone/static/media/abiportrait.ea4fa9bce0fc7b74d0e4.jpg",
+    "static/media/gabbymendoza.jpg": "/capstone/static/media/gabbymendoza.3a5027d6c485ea9167c2.jpg",
     "static/media/rachelkoo.jpg": "/capstone/static/media/rachelkoo.5dd9e188222c72972d9a.jpg",
+    "static/media/untitledpaintingdoc.pdf": "/capstone/static/media/untitledpaintingdoc.66f4a6957fc29b95bef8.pdf",
+    "static/media/immigranttiesdoc.pdf": "/capstone/static/media/immigranttiesdoc.39820de52eea9a22d64f.pdf",
+    "static/media/untitledpainting.jpg": "/capstone/static/media/untitledpainting.c869465283fd69708392.jpg",
     "static/media/elviraprieto.jpg": "/capstone/static/media/elviraprieto.4615ddf4aaf204e086e8.jpg",
     "static/media/mayagentlemanwolf.jpg": "/capstone/static/media/mayagentlemanwolf.4bf90b1fecbeb1377f9d.jpg",
     "static/media/astillphotographofmychildhood.jpg": "/capstone/static/media/astillphotographofmychildhood.b817e2af77e9ff484aec.jpg",
+    "static/media/cantheUSbuychinamoon.jpg": "/capstone/static/media/cantheUSbuychinamoon.76c3a4c16390c51d0e93.jpg",
     "static/media/enelfin.jpg": "/capstone/static/media/enelfin.136268720f7051b3e726.jpg",
     "static/media/coloringcambodia.jpg": "/capstone/static/media/coloringcambodia.bb3a66be293d7ec8ffe2.jpg",
     "static/media/trishaRBA.jpg": "/capstone/static/media/trishaRBA.0c3662958c8fc682897d.jpg",
+    "static/media/jasmineshih.jpg": "/capstone/static/media/jasmineshih.82567d8148f0d85dd40f.jpg",
     "static/media/escribo.jpg": "/capstone/static/media/escribo.2789e0864ecd62f149fd.jpg",
+    "static/media/stop.jpg": "/capstone/static/media/stop.e042c6cb13326899bb33.jpg",
     "static/media/mayaartery.jpg": "/capstone/static/media/mayaartery.ae34874ff89dea945520.jpg",
     "static/media/mayawindow.jpg": "/capstone/static/media/mayawindow.cfb29f2190fab9fa0796.jpg",
     "static/media/collectioncover.jpg": "/capstone/static/media/collectioncover.c96e8d675da2aa2873f2.jpg",
@@ -31,11 +41,11 @@
     "static/media/bluegirldoc.pdf": "/capstone/static/media/bluegirldoc.eded2f457216e813252f.pdf",
     "index.html": "/capstone/index.html",
     "main.d940ad14.css.map": "/capstone/static/css/main.d940ad14.css.map",
-    "main.6a525fa3.js.map": "/capstone/static/js/main.6a525fa3.js.map",
+    "main.00620cc7.js.map": "/capstone/static/js/main.00620cc7.js.map",
     "787.3ecd7fac.chunk.js.map": "/capstone/static/js/787.3ecd7fac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d940ad14.css",
-    "static/js/main.6a525fa3.js"
+    "static/js/main.00620cc7.js"
   ]
 }
