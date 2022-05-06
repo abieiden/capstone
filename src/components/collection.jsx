@@ -23,6 +23,9 @@ import matthew from '../assets/matthew.jpg'
 import stopsign from '../assets/stop.jpg'
 import untitledpainting from '../assets/untitledpainting.jpg'
 import untitledpaintingdoc from '../assets/untitledpaintingdoc.pdf'
+import immigrantties from '../assets/immigrantties.jpg'
+import immigranttiesdoc from '../assets/immigranttiesdoc.pdf'
+import cantheUSbuychinamoon from '../assets/cantheUSbuychinamoon.jpg'
 
 function Collection() {
   return (
@@ -151,7 +154,7 @@ function Collection() {
             Janica Mendillo.
             </Card.Text>
             <Card.Text>
-            Blue Girl explores a middle school girl's first period. It reflects on the mysteries of 
+            Written June, 11th, 2021. Blue Girl explores a middle school girl's first period. It reflects on the mysteries of 
             the body young women exist in and the inability to speak about its phenomena with their immigrant mothers.
             </Card.Text>
             <Card.Link href={bluegirldoc}>Read Here</Card.Link>
@@ -284,7 +287,7 @@ function Collection() {
         <Row>
         <Col>
           <Card>
-            <Card.Img variant="top" src={stopsign} alt="STOP" />
+            <Card.Img variant="top" src={stopsign} alt="Picture of STOP painting" />
             <Card.Body>
               <Card.Text>
               Drew Vallero.
@@ -298,7 +301,7 @@ function Collection() {
           </Col>
           <Col>
           <Card>
-            <Card.Img variant="top" src={matthew} alt="Picture of text from A Still Photograph of My Childhood" />
+            <Card.Img variant="top" src={matthew} alt="Picture of Matthew painting" />
             <Card.Body>
               <Card.Text>
               Drew Vallero.
@@ -311,7 +314,7 @@ function Collection() {
           </Col>
           <Col>
           <Card>
-            <Card.Img variant="top" src={untitledpainting} alt="Picture of text from A Still Photograph of My Childhood" />
+            <Card.Img variant="top" src={untitledpainting} alt="Picture of Untitled Painting" />
             <Card.Body>
               <Card.Text>
               Gabby Mendoza 
@@ -325,6 +328,44 @@ function Collection() {
           </Card>
           </Col>
         </Row>
+        <Row>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={immigrantties} alt="Immigrant Ties Sculpture" />
+            <Card.Body>
+              <Card.Text>
+              Jasmine Shih.
+              </Card.Text>
+              <Card.Text>
+              Immigrant Ties. 3D work (8 x 8 x 11.5 inches) created with foam boards, threads, and hardware washers, April 19, 2022. I created this 3D work for the personal geography project 
+              in the Design of Data class at the d.school. It tells the story of how my immigrant experience has shaped my identity over the last decade as well as the dilemmas 
+              I constantly face as an immigrant with ties to both Taiwan and the United States. My roots run deep in Taiwan, where I was born and raised until 15, yet moving to 
+              the United states opened doors to new opportunities, people, and ways of thinking that I would be sad to lose. "Which side do I belong more" and "where should I 
+              settle in the future" are the questions that I've never stopped asking myself.
+              </Card.Text>
+              <Card.Link href={immigranttiesdoc}>See Here</Card.Link>
+            </Card.Body>
+          </Card>
+          </Col>
+          </Row>
+          <Row>
+          <Col>
+          <Card>
+            <Card.Img variant="top" src={cantheUSbuychinamoon} alt="Picture of text from A Still Photograph of My Childhood" />
+            <Card.Body>
+              <Card.Text>
+              Christina Shen.
+              </Card.Text>
+              <Card.Text>
+              美国能买到中国月并吗? Can the United States buy China Moon? Created March 1st, 2019. 
+              This video meditates on translation and intergenerational understanding through my WeChat text conversations with my grandmother, who lives in Shanghai.
+              </Card.Text>
+              <Card.Link href="https://www.youtube.com/watch?v=Rd-DEr2X0SQ">Watch Here</Card.Link>
+            </Card.Body>
+          </Card>
+          </Col>
+        </Row>
+
       </Container>
       </div>
       

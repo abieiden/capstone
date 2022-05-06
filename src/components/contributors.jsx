@@ -8,6 +8,8 @@ import elviraprieto from '../assets/elviraprieto.jpg'
 import rachelkoo from '../assets/rachelkoo.jpg'
 import drewvallero from '../assets/drewvallero.jpg'
 import gabbymendoza from '../assets/gabbymendoza.jpg'
+import jasmineshih from '../assets/jasmineshih.jpg'
+import christinashen from '../assets/christinashen.jpg'
 
 function Contributors() {
     return (
@@ -224,6 +226,47 @@ function Contributors() {
             </div>
           </div>
         </div>
+
+        <div class="container" style={{marginTop: 15 }}>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img
+                class="img-fluid rounded"
+                src={jasmineshih}
+                alt="Jasmine Shih Portait"
+                style={{width: 500, height: 'auto'}}
+              />
+            </div>
+            <div class="col-lg-6">
+              <h1 class="font-weight-light">Jasmine Shih</h1>
+              <p>
+              Jasmine Shih (she/her) is a first-year Masters student in Computer Science specializing in human-computer interaction. 
+              She was born and raised in Taiwan and immigrated to the U.S. with her mother when she was 15 years old.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container" style={{marginTop: 15 }}>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img
+                class="img-fluid rounded"
+                src={christinashen}
+                alt="Christina Shen Portait"
+                style={{width: 500, height: 'auto'}}
+              />
+            </div>
+            <div class="col-lg-6">
+              <h1 class="font-weight-light">Christina Shen</h1>
+              <p>
+              Christina Shen (she/her) is an Art History major at Stanford. She is interested in the works of Asian diaspora artists 
+              and engages with questions of language, culture, and identity in her art.
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
       
         );
@@ -231,4 +274,3 @@ function Contributors() {
 
 export default Contributors;
 
-// - Jasmine Yen-Ching Shih
