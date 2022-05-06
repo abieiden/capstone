@@ -7,6 +7,7 @@ import janicamendillo from '../assets/janicamendillo.jpg'
 import elviraprieto from '../assets/elviraprieto.jpg'
 import rachelkoo from '../assets/rachelkoo.jpg'
 import drewvallero from '../assets/drewvallero.jpg'
+import gabbymendoza from '../assets/gabbymendoza.jpg'
 
 function Contributors() {
     return (
@@ -204,8 +205,30 @@ function Contributors() {
               </p>
           </div>
         </div>
+        <div class="container" style={{marginTop: 15 }}>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img
+                class="img-fluid rounded"
+                src={gabbymendoza}
+                alt="Gabby Mendoza Portait"
+                style={{width: 500, height: 'auto'}}
+              />
+            </div>
+            <div class="col-lg-6">
+              <h1 class="font-weight-light">Gabby Mendoza</h1>
+              <p>
+              Gabby Mendoza (she/her) is a Product Design senior at Stanford. She was born in the Philippines and immigrated to 
+              the U.S. at the age of four. She loves to draw, take care of plants, and play with dogs.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+      
         );
 }
 
 export default Contributors;
+
+// - Jasmine Yen-Ching Shih

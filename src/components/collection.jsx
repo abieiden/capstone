@@ -19,6 +19,10 @@ import walmartparking from '../assets/walmartparking.jpg'
 import escribo from '../assets/escribo.jpg'
 import enelfin from '../assets/enelfin.jpg'
 import photochildhood from '../assets/astillphotographofmychildhood.jpg'
+import matthew from '../assets/matthew.jpg'
+import stopsign from '../assets/stop.jpg'
+import untitledpainting from '../assets/untitledpainting.jpg'
+import untitledpaintingdoc from '../assets/untitledpaintingdoc.pdf'
 
 function Collection() {
   return (
@@ -280,7 +284,7 @@ function Collection() {
         <Row>
         <Col>
           <Card>
-            <Card.Img variant="top" src={stop} alt="STOP" />
+            <Card.Img variant="top" src={stopsign} alt="STOP" />
             <Card.Body>
               <Card.Text>
               Drew Vallero.
@@ -300,22 +304,23 @@ function Collection() {
               Drew Vallero.
               </Card.Text>
               <Card.Text>
-              “Matthew,” oil on canvas. This is a portrait of my younger brother that celebrates his youth and the complexities of brown skin in sunlight.
+              “Matthew,” oil on canvas, 16”x20”. This is a portrait of my younger brother that celebrates his youth and the complexities of brown skin in sunlight.
               </Card.Text>
             </Card.Body>
           </Card>
           </Col>
           <Col>
           <Card>
-            <Card.Img variant="top" src={photochildhood} alt="Picture of text from A Still Photograph of My Childhood" />
+            <Card.Img variant="top" src={untitledpainting} alt="Picture of text from A Still Photograph of My Childhood" />
             <Card.Body>
               <Card.Text>
-              Elvira Prieto.
+              Gabby Mendoza 
               </Card.Text>
               <Card.Text>
-              A Still Photograph of My Childhood from familia chapter in An (Im)possible Life: Poesía y Testimonio in the Borderlands, published in 2015. 
+              "Untitled," painting. Duterte's rule over the Philippines has negatively impacted many activists of any sector. 
+              This piece gives a sense of how being red-tagged (blacklisted by the government and targeted) can feel with 24/7 surveillance watching every move someone makes.
               </Card.Text>
-              <Card.Link href="http://www.elviraprieto.com/">Learn more about Elvira Prieto and her Book Here</Card.Link>
+              <Card.Link href={untitledpaintingdoc}>See Here</Card.Link>
             </Card.Body>
           </Card>
           </Col>
