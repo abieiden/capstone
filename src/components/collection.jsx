@@ -48,7 +48,7 @@ function Collection() {
 
 
       <Container fluid >
-        <Row >
+        <Row style={{marginTop: 15 }}>
         <Col>
           <Card>
             <Card.Img variant="top" src={kayumanggi} altt="Clip from Kayumanggi Video" />
@@ -72,47 +72,67 @@ function Collection() {
         <Row style={{marginTop: 15 }}>
         <Col>
           <Card>
-            <Card.Img variant="top" src={window} alt="Picture of text from Open Window at 3PM When I Was Seven."/>
+            <Card.Img variant="top" src={stopsign} alt="Picture of STOP painting" />
             <Card.Body>
               <Card.Text>
-              Maya Salameh.
+              Drew Vallero.
               </Card.Text>
               <Card.Text>
-              Open Window at 3PM When I Was Seven. Published in the Brooklyn Review. 
+              “STOP!” Acrylic on metal panel, 24”x24”. I made this monochrome self portrait as we were sent home for the pandemic in 2020. 
+              It serves as a relic of where I was at that time and how seemingly overnight, everything—plans, futures, relationships—halted to a stop.
               </Card.Text>
-              <Card.Link href="https://www.bkreview.org/plus/open-window-at-3pm-when-i-was-seven-maya-salameh/">Read Here</Card.Link>
             </Card.Body>
           </Card>
-        </Col>
-        <Col>
+          </Col>
+          <Col>
           <Card>
-            <Card.Img variant="top" src={gentleman} alt="Picture of text from A GENTLEMAN IS SIMPLY A PATIENT WOLF."  />
+            <Card.Img variant="top" src={matthew} alt="Picture of Matthew painting" />
             <Card.Body>
               <Card.Text>
-              Maya Salameh.
+              Drew Vallero.
               </Card.Text>
               <Card.Text>
-              A GENTLEMAN IS SIMPLY A PATIENT WOLF. Published in Asian American Writers' Workshop
+              “Matthew,” oil on canvas, 16”x20”. This is a portrait of my younger brother that celebrates his youth and the complexities of brown skin in sunlight.
               </Card.Text>
-              <Card.Link href="https://aaww.org/a-gentleman-is-simply-a-patient-wolf/">Read Here</Card.Link>
             </Card.Body>
           </Card>
-        </Col>
-        <Col>
+          </Col>
+          <Col>
           <Card>
-            <Card.Img variant="top" src={artery} alt="Picture of text from How to Braid an Artery." />
+            <Card.Img variant="top" src={untitledpainting} alt="Picture of Untitled Painting" />
             <Card.Body>
               <Card.Text>
-              Maya Salameh.
+              Gabby Mendoza 
               </Card.Text>
               <Card.Text>
-              How to Braid an Artery. Published in POETRY Magazine. 
+              "Untitled," painting. Duterte's rule over the Philippines has negatively impacted many activists of any sector. 
+              This piece gives a sense of how being red-tagged (blacklisted by the government and targeted) can feel with 24/7 surveillance watching every move someone makes.
               </Card.Text>
-              <Card.Link href="https://www.poetryfoundation.org/poetrymagazine/poems/156415/how-to-braid-an-artery ">Read Here</Card.Link>
+              <Card.Link href={untitledpaintingdoc}>See Here</Card.Link>
             </Card.Body>
           </Card>
-        </Col>
+          </Col>
         </Row>
+        <Row style={{marginTop: 15 }}>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={immigrantties} alt="Immigrant Ties Sculpture" />
+            <Card.Body>
+              <Card.Text>
+              Jasmine Shih.
+              </Card.Text>
+              <Card.Text>
+              Immigrant Ties. 3D work (8 x 8 x 11.5 inches) created with foam boards, threads, and hardware washers, April 19, 2022. I created this 3D work for the personal geography project 
+              in the Design of Data class at the d.school. It tells the story of how my immigrant experience has shaped my identity over the last decade as well as the dilemmas 
+              I constantly face as an immigrant with ties to both Taiwan and the United States. My roots run deep in Taiwan, where I was born and raised until 15, yet moving to 
+              the United states opened doors to new opportunities, people, and ways of thinking that I would be sad to lose. "Which side do I belong more" and "where should I 
+              settle in the future" are the questions that I've never stopped asking myself.
+              </Card.Text>
+              <Card.Link href={immigranttiesdoc}>See Here</Card.Link>
+            </Card.Body>
+          </Card>
+          </Col>
+          </Row>
         <Row style={{marginTop: 15 }}>
         <Col>
           <Card>
@@ -284,71 +304,7 @@ function Collection() {
           </Card>
           </Col>
         </Row>
-        <Row>
-        <Col>
-          <Card>
-            <Card.Img variant="top" src={stopsign} alt="Picture of STOP painting" />
-            <Card.Body>
-              <Card.Text>
-              Drew Vallero.
-              </Card.Text>
-              <Card.Text>
-              “STOP!” Acrylic on metal panel, 24”x24”. I made this monochrome self portrait as we were sent home for the pandemic in 2020. 
-              It serves as a relic of where I was at that time and how seemingly overnight, everything—plans, futures, relationships—halted to a stop.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          </Col>
-          <Col>
-          <Card>
-            <Card.Img variant="top" src={matthew} alt="Picture of Matthew painting" />
-            <Card.Body>
-              <Card.Text>
-              Drew Vallero.
-              </Card.Text>
-              <Card.Text>
-              “Matthew,” oil on canvas, 16”x20”. This is a portrait of my younger brother that celebrates his youth and the complexities of brown skin in sunlight.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          </Col>
-          <Col>
-          <Card>
-            <Card.Img variant="top" src={untitledpainting} alt="Picture of Untitled Painting" />
-            <Card.Body>
-              <Card.Text>
-              Gabby Mendoza 
-              </Card.Text>
-              <Card.Text>
-              "Untitled," painting. Duterte's rule over the Philippines has negatively impacted many activists of any sector. 
-              This piece gives a sense of how being red-tagged (blacklisted by the government and targeted) can feel with 24/7 surveillance watching every move someone makes.
-              </Card.Text>
-              <Card.Link href={untitledpaintingdoc}>See Here</Card.Link>
-            </Card.Body>
-          </Card>
-          </Col>
-        </Row>
-        <Row>
-        <Col>
-          <Card>
-            <Card.Img variant="top" src={immigrantties} alt="Immigrant Ties Sculpture" />
-            <Card.Body>
-              <Card.Text>
-              Jasmine Shih.
-              </Card.Text>
-              <Card.Text>
-              Immigrant Ties. 3D work (8 x 8 x 11.5 inches) created with foam boards, threads, and hardware washers, April 19, 2022. I created this 3D work for the personal geography project 
-              in the Design of Data class at the d.school. It tells the story of how my immigrant experience has shaped my identity over the last decade as well as the dilemmas 
-              I constantly face as an immigrant with ties to both Taiwan and the United States. My roots run deep in Taiwan, where I was born and raised until 15, yet moving to 
-              the United states opened doors to new opportunities, people, and ways of thinking that I would be sad to lose. "Which side do I belong more" and "where should I 
-              settle in the future" are the questions that I've never stopped asking myself.
-              </Card.Text>
-              <Card.Link href={immigranttiesdoc}>See Here</Card.Link>
-            </Card.Body>
-          </Card>
-          </Col>
-          </Row>
-          <Row>
+        <Row style={{marginTop: 15 }}>
           <Col>
           <Card>
             <Card.Img variant="top" src={cantheUSbuychinamoon} alt="Picture of text from A Still Photograph of My Childhood" />
@@ -365,7 +321,50 @@ function Collection() {
           </Card>
           </Col>
         </Row>
-
+        <Row style={{marginTop: 15 }}>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={window} alt="Picture of text from Open Window at 3PM When I Was Seven."/>
+            <Card.Body>
+              <Card.Text>
+              Maya Salameh.
+              </Card.Text>
+              <Card.Text>
+              Open Window at 3PM When I Was Seven. Published in the Brooklyn Review. 
+              </Card.Text>
+              <Card.Link href="https://www.bkreview.org/plus/open-window-at-3pm-when-i-was-seven-maya-salameh/">Read Here</Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={gentleman} alt="Picture of text from A GENTLEMAN IS SIMPLY A PATIENT WOLF."  />
+            <Card.Body>
+              <Card.Text>
+              Maya Salameh.
+              </Card.Text>
+              <Card.Text>
+              A GENTLEMAN IS SIMPLY A PATIENT WOLF. Published in Asian American Writers' Workshop
+              </Card.Text>
+              <Card.Link href="https://aaww.org/a-gentleman-is-simply-a-patient-wolf/">Read Here</Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={artery} alt="Picture of text from How to Braid an Artery." />
+            <Card.Body>
+              <Card.Text>
+              Maya Salameh.
+              </Card.Text>
+              <Card.Text>
+              How to Braid an Artery. Published in POETRY Magazine. 
+              </Card.Text>
+              <Card.Link href="https://www.poetryfoundation.org/poetrymagazine/poems/156415/how-to-braid-an-artery ">Read Here</Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
+        </Row>
       </Container>
       </div>
       
