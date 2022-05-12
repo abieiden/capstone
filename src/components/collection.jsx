@@ -1,51 +1,79 @@
 import React from "react";
 import Container from 'react-bootstrap/Container'
+import Carousel from 'react-bootstrap/Carousel'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
-import kayumanggi from '../assets/trishakayumanggi.jpg'
-import RBApic from '../assets/trishaRBA.jpg'
-import RBApdf from '../assets/TLitong_RBA.pdf'
-import gentleman from '../assets/mayagentlemanwolf.jpg'
-import lemonade from '../assets/mayalemonade.jpg'
-import artery from '../assets/mayaartery.jpg'
-import window from '../assets/mayawindow.jpg'
-import coloringcambodia from '../assets/coloringcambodia.jpg'
-import bluegirlpic from '../assets/bluegirl.jpg'
-import bluegirldoc from '../assets/bluegirldoc.pdf'
-import awaculturalphotoshoot from '../assets/awaculturalphotoshoot.jpg'
-import rachelculturalphotoshoot from '../assets/rachelculturalphotoshoot.jpg'
-import walmartparking from '../assets/walmartparking.jpg'
-import escribo from '../assets/escribo.jpg'
-import enelfin from '../assets/enelfin.jpg'
-import photochildhood from '../assets/astillphotographofmychildhood.jpg'
-import matthew from '../assets/matthew.jpg'
-import stopsign from '../assets/stop.jpg'
-import untitledpainting from '../assets/untitledpainting.jpg'
-import untitledpaintingdoc from '../assets/untitledpaintingdoc.pdf'
-import immigrantties from '../assets/immigrantties.jpg'
-import immigranttiesdoc from '../assets/immigranttiesdoc.pdf'
-import cantheUSbuychinamoon from '../assets/cantheUSbuychinamoon.jpg'
+import kayumanggi from '../assets/collection/trishakayumanggi.jpg'
+import RBApic from '../assets/collection/trishaRBA.jpg'
+import RBApdf from '../assets/collection/TLitong_RBA.pdf'
+import gentleman from '../assets/collection/mayagentlemanwolf.jpg'
+import lemonade from '../assets/collection/mayalemonade.jpg'
+import artery from '../assets/collection/mayaartery.jpg'
+import window from '../assets/collection/mayawindow.jpg'
+import coloringcambodia from '../assets/collection/coloringcambodia.jpg'
+import bluegirlpic from '../assets/collection/bluegirl.jpg'
+import bluegirldoc from '../assets/collection/bluegirldoc.pdf'
+import awaculturalphotoshoot from '../assets/collection/awaculturalphotoshoot.jpg'
+import rachelculturalphotoshoot from '../assets/collection/rachelculturalphotoshoot.jpg'
+import walmartparking from '../assets/collection/walmartparking.jpg'
+import escribo from '../assets/collection/escribo.jpg'
+import enelfin from '../assets/collection/enelfin.jpg'
+import photochildhood from '../assets/collection/astillphotographofmychildhood.jpg'
+import matthew from '../assets/collection/matthew.jpg'
+import stopsign from '../assets/collection/stop.jpg'
+import untitledpainting from '../assets/collection/untitledpainting.jpg'
+import untitledpaintingdoc from '../assets/collection/untitledpaintingdoc.pdf'
+import immigrantties from '../assets/collection/immigrantties.jpg'
+import immigranttiesdoc from '../assets/collection/immigranttiesdoc.pdf'
+import cantheUSbuychinamoon from '../assets/collection/cantheUSbuychinamoon.jpg'
+import respeto1 from '../assets/collection/respeto/respeto1.jpg'
+import respeto2 from '../assets/collection/respeto/respeto2.jpg'
+import respeto3 from '../assets/collection/respeto/respeto3.jpg'
+import respeto4 from '../assets/collection/respeto/respeto4.jpg'
+import respeto5 from '../assets/collection/respeto/respeto5.jpg'
+import respeto6 from '../assets/collection/respeto/respeto6.jpg'
+import respeto7 from '../assets/collection/respeto/respeto7.jpg'
+import respeto8 from '../assets/collection/respeto/respeto8.jpg'
+import respeto9 from '../assets/collection/respeto/respeto9.jpg'
+import respeto10 from '../assets/collection/respeto/respeto10.jpg'
+import vines1 from '../assets/collection/vines/vines1.jpg'
+import vines2 from '../assets/collection/vines/vines2.JPG'
+import vines3 from '../assets/collection/vines/vines3.JPG'
+import vines4 from '../assets/collection/vines/vines4.JPG'
+import vines5 from '../assets/collection/vines/vines5.jpeg'
+import ahumandoelcorazon from '../assets/collection/ahumandoelcorazon.jpg'
+import bulaklakan from '../assets/collection/bulaklakan.jpg'
 
 function Collection() {
   return (
     <div className="collection">
       <h1>Collection</h1>
 
-      <p> [Expo Title] is a collection of art created by members of the Stanford community to explore their immigrant identity. 
+      <p>The Immigrant Art Expo is a collection of art created by members of the Stanford community to explore their immigrant identity. 
             As college students, we are inherently in a state of growth, whether it is in our classes widening our understanding, 
             or making decisions that shape our future and who we are. For many of us, this time of exploration has also focused on 
-            our immigrant identity. The collection includes poems, essays, paintings, performances, and even computer science projects 
+            our immigrant identity. In this collection, "art" is broadly defined as a medium used to communicate a story, identity, emotion, etc.
+            The collection includes poems, essays, paintings, performances, and even computer science projects 
             that share community narratives from many immigrant backgrounds. Through diverse art and multidimensional perspectives, 
             this exhibition presents an opportunity to contextualize and understand a complex topic like immigration. This 
             exhibition creates space for important discourse and encourages viewers to reimagine identity and immigration. 
-            But more importantly, [Expo Title] empowers contributors to explore their identity and reclaim their narrative. 
-            I hope to present the art exposition near the end of Spring Quarter.</p>
+            But more importantly, The Immigrant Art Expo empowers contributors to explore their identity and reclaim their narrative. 
+            We will be printing an Immigrant Art Zine for all contributors near the end of Spring Quarter. 
+                        
+            </p>
 
-      <p>If you would like to contribute art, please fill out this <a href={"https://forms.gle/6BsFh65SQBXPE8jp7"}>Google Form</a>. 
-        If you have any questions, comments, suggestions, or want to get involved with planning, please reach out to Abi Lopez via email abieiden@stanford.edu. 
+      <p>To be a part of the <strong>Immigrant Art Zine</strong>, please fill out this <a href={"https://forms.gle/6BsFh65SQBXPE8jp7"}>Google Form</a>.  by Wednesday, May 18th. 
+      We welcome submissions from all Stanford students, faculty, and staff.
       </p>
 
+      <p>We will also be presenting a part of the <strong>Immigrant Art Collection</strong> with the Cantor Spring Arts Fair. 
+        Please <a href={"https://bit.ly/spring_museum_night"}>rsvp</a> and join us in celebrating Immigrant Identity and Narratives at Stanford.
+      </p>
+      
+      <p>
+        If you have any questions, comments, suggestions, or want to get involved with planning, please reach out to Abi Lopez via email abieiden@stanford.edu. 
+      </p>
 
       <Container fluid >
         <Row style={{marginTop: 15 }}>
@@ -72,7 +100,7 @@ function Collection() {
         <Row style={{marginTop: 15 }}>
         <Col>
           <Card>
-            <Card.Img variant="top" src={stopsign} alt="Picture of STOP painting" />
+            <Card.Img variant="top" src={stopsign} alt="STOP painting" />
             <Card.Body>
               <Card.Text>
               Drew Vallero.
@@ -86,7 +114,7 @@ function Collection() {
           </Col>
           <Col>
           <Card>
-            <Card.Img variant="top" src={matthew} alt="Picture of Matthew painting" />
+            <Card.Img variant="top" src={matthew} alt="Matthew painting" />
             <Card.Body>
               <Card.Text>
               Drew Vallero.
@@ -99,7 +127,7 @@ function Collection() {
           </Col>
           <Col>
           <Card>
-            <Card.Img variant="top" src={untitledpainting} alt="Picture of Untitled Painting" />
+            <Card.Img variant="top" src={untitledpainting} alt="Untitled Painting" />
             <Card.Body>
               <Card.Text>
               Gabby Mendoza 
@@ -136,7 +164,7 @@ function Collection() {
         <Row style={{marginTop: 15 }}>
         <Col>
           <Card>
-            <Card.Img variant="top" src={RBApic} alt="Picture of text from Trisha's RBA" />
+            <Card.Img variant="top" src={RBApic} alt="Text from Trisha's RBA" />
             <Card.Body>
             <Card.Text>
               Trisha Litong.
@@ -152,23 +180,21 @@ function Collection() {
         </Col>
           <Col>
           <Card>
-            <Card.Img variant="top" src={coloringcambodia} alt="Cambodian Woman" />
+            <Card.Img variant="top" src={lemonade} alt="Text from THE PRESBYTERIAN CHURCH ON EUCLID DOESN'T SELL LEMONADE ANYMORE." />
             <Card.Body>
               <Card.Text>
-              Vanessa Lakana Veak and Victoria Sampors Chiek.
+              Maya Salameh.
               </Card.Text>
               <Card.Text>
-              Coloring Cambodia is an archival project comprising interviews and portraits of 
-              women of Indigenous Khmer ancestry speaking about their personal experiences with 
-              colorism within the Cambodian community.
+              THE PRESBYTERIAN CHURCH ON EUCLID DOESN'T SELL LEMONADE ANYMORE. Published in Anomaly. 
               </Card.Text>
-              <Card.Link href="https://www.coloringcambodia.com/">Learn More Here</Card.Link>
+              <Card.Link href="https://anmly.org/ap33/maya-salameh/">Read Here</Card.Link>
             </Card.Body>
           </Card>
           </Col>
           <Col>
           <Card>
-            <Card.Img variant="top" src={bluegirlpic} alt="Picture of Blue Girl text" />
+            <Card.Img variant="top" src={bluegirlpic} alt="Blue Girl poem text" />
             <Card.Body>
             <Card.Text>
             Janica Mendillo.
@@ -188,7 +214,7 @@ function Collection() {
             <Card.Img variant="top" src={awaculturalphotoshoot} alt="AWA Cultural Photoshoot" />
             <Card.Body>
               <Card.Text>
-              Rachel Koo and AWA.
+              Rachel Koo in AWA Cultural Photoshoot.
               </Card.Text>
               <Card.Text>
               AWA provides a space for Asian and Asian-American womxn to gather in solidarity with one another and 
@@ -210,6 +236,8 @@ function Collection() {
               the pandemic. We will host a teach-in for this photoshoot to explore the boundaries of embracing one's cultural identity 
               through a conversation about Cultural Appreciation vs Cultural Appropriation. This conversation aims to critically examine 
               our unique individual relationships with our own cultures and how they may differ from person to person.
+
+              Photographer: Sherry Mestan, @sherrymestan on Instagram/Facebook/other social media platforms 
               </Card.Text>
               <Card.Link href="https://asianwomensalliance.weebly.com/">Learn about AWA Here</Card.Link>
             </Card.Body>
@@ -219,7 +247,7 @@ function Collection() {
           <Row style={{marginTop: 15 }}>
           <Col>
           <Card>
-            <Card.Img variant="top" src={rachelculturalphotoshoot} alt="Picture of Rachel Koo from Cultural Photoshoot" />
+            <Card.Img variant="top" src={rachelculturalphotoshoot} alt="Rachel Koo in AWA Cultural Photoshoot" />
             <Card.Body>
               <Card.Text>
                Rachel Koo
@@ -227,6 +255,8 @@ function Collection() {
               <Card.Text>
               Rachel Koo wearing a traditional Korean Hanbok top with a western tulle skirt to symbolize her bicultural identity as 
               part of the AWA cultural photoshoot.
+
+              Photographer: Sherry Mestan, @sherrymestan on Instagram/Facebook/other social media platforms
               </Card.Text>
             </Card.Body>
           </Card>
@@ -247,23 +277,244 @@ function Collection() {
           </Col>
           <Col>
           <Card>
-            <Card.Img variant="top" src={lemonade} alt="Picture of text from THE PRESBYTERIAN CHURCH ON EUCLID DOESN'T SELL LEMONADE ANYMORE." />
+            <Card.Img variant="top" src={bulaklakan} alt="Trisha Litong in the Pilipinx Cultural Night 2019 Performance" />
             <Card.Body>
               <Card.Text>
-              Maya Salameh.
+              Trisha Litong.
               </Card.Text>
               <Card.Text>
-              THE PRESBYTERIAN CHURCH ON EUCLID DOESN'T SELL LEMONADE ANYMORE. Published in Anomaly. 
+              Trisha Litong in the Pilipinx Cultural Night 2019 Performance. "Bulaklakan" refers to the flowers that flourish the floral garlands. This dance is dedicated to the Virgin Mary and performed in May for Holy Week.
               </Card.Text>
-              <Card.Link href="https://anmly.org/ap33/maya-salameh/">Read Here</Card.Link>
             </Card.Body>
           </Card>
         </Col>
         </Row>
+        <Row>
+          <Col>
+          <Card>
+            <Card.Img variant="top" src={coloringcambodia} alt="Cambodian Woman" />
+            <Card.Body>
+              <Card.Text>
+              Vanessa Lakana Veak and Victoria Sampors Chiek.
+              </Card.Text>
+              <Card.Text>
+              Coloring Cambodia is an archival project comprising interviews and portraits of 
+              women of Indigenous Khmer ancestry speaking about their personal experiences with 
+              colorism within the Cambodian community.
+              </Card.Text>
+              <Card.Link href="https://www.coloringcambodia.com/">Learn More Here</Card.Link>
+            </Card.Body>
+          </Card>
+          </Col>
+        </Row>
+        <Row style={{marginTop: 15 }}>
+        <Col>
+        <Card>
+        <Card.Body>
+            <Carousel variant="dark">
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={respeto1}
+            alt="…respeto… 1"
+          />
+          <Carousel.Caption>
+            <h5>…respeto…</h5>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={respeto2}
+            alt="…respeto… 2"
+          />
+          <Carousel.Caption>
+            <h5>…respeto…</h5>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={respeto3}
+            alt="…respeto… 3"
+          />
+          <Carousel.Caption>
+            <h5>…respeto…</h5>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={respeto4}
+            alt="…respeto… 4"
+          />
+          <Carousel.Caption>
+            <h5>…respeto…</h5>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={respeto5}
+            alt="…respeto… 5"
+          />
+          <Carousel.Caption>
+            <h5>…respeto…</h5>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={respeto6}
+            alt="…respeto… 6"
+          />
+          <Carousel.Caption>
+            <h5>…respeto…</h5>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={respeto7}
+            alt="…respeto… 7"
+          />
+          <Carousel.Caption>
+            <h5>…respeto…</h5>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={respeto8}
+            alt="…respeto… 8"
+          />
+          <Carousel.Caption>
+            <h5>…respeto…</h5>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={respeto9}
+            alt="…respeto… 9"
+          />
+          <Carousel.Caption>
+            <h5>…respeto…</h5>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={respeto10}
+            alt="…respeto… 10"
+          />
+          <Carousel.Caption>
+            <h5>…respeto…</h5>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+      </Carousel>
+      <Card.Text>
+            Cecilia Valencia
+            </Card.Text>
+            <Card.Text>
+            ...respeto... These portraits were taken for a photography course during the Spring of 2021. Through these images, I hope to tell a story about respect, 
+            visibility, and anonymity. Cleaning staff at Stanford University, especially subcontracted workers, are often overworked and disregarded. 
+            The ongoing COVID-19 pandemic has exacerbated this relationship.
+            </Card.Text>
+          </Card.Body>
+          </Card>
+      </Col>
+
+        <Col>
+        <Card>
+        <Card.Body>
+            <Carousel variant="dark">
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={vines1}
+                  alt="vines 1"
+                />
+                <Carousel.Caption>
+                  <h5>…respeto…</h5>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={vines2}
+                  alt="vines 2"
+                />
+                <Carousel.Caption>
+                  <h5>vines</h5>
+                </Carousel.Caption>
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={vines3}
+                  alt="vines 3"
+                />
+                <Carousel.Caption>
+                  <h5>vines</h5>
+                </Carousel.Caption>
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={vines4}
+                  alt="vines 4"
+                />
+                <Carousel.Caption>
+                  <h5>vines</h5>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={vines5}
+                  alt="vines 5"
+                />
+                <Carousel.Caption>
+                  <h5>vines</h5>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
+            <Card.Text>
+            Cecilia Valencia
+            </Card.Text>
+            <Card.Text>
+            Vines. A stop sign at the intersection of Stanford and a NO OUTLET, Esmeralda, Sandra, Jazmin, Cecilia--or some variation of these.
+            </Card.Text>
+          </Card.Body>
+          </Card>
+      </Col>
+      <Col>
+      <Card>
+            <Card.Img variant="top" src={ahumandoelcorazon} alt="=Ahumando el corazón painting" />
+            <Card.Body>
+              <Card.Text>
+              Cecilia Valencia
+              </Card.Text>
+              <Card.Text>
+              Ahumando el corazón. Water based oil paint on 16” x 20” canvas. This is a collage-portrait of my grandparents. They are painted 
+              amongst religious and fashion iconography and the smoke of the Popocatépetl.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+      </Col>
+      </Row>
+
+
         <Row style={{marginTop: 15 }}>
         <Col>
           <Card>
-            <Card.Img variant="top" src={enelfin} alt="Picture of text from En el Fin" />
+            <Card.Img variant="top" src={enelfin} alt="Text from En el Fin poem" />
             <Card.Body>
               <Card.Text>
               Elvira Prieto.
@@ -277,7 +528,7 @@ function Collection() {
           </Col>
           <Col>
           <Card>
-            <Card.Img variant="top" src={escribo} alt="Picture of text from escribo" />
+            <Card.Img variant="top" src={escribo} alt="Text from escribo poem" />
             <Card.Body>
               <Card.Text>
               Elvira Prieto.
@@ -291,7 +542,7 @@ function Collection() {
           </Col>
           <Col>
           <Card>
-            <Card.Img variant="top" src={photochildhood} alt="Picture of text from A Still Photograph of My Childhood" />
+            <Card.Img variant="top" src={photochildhood} alt="Text from A Still Photograph of My Childhood poem" />
             <Card.Body>
               <Card.Text>
               Elvira Prieto.
@@ -307,7 +558,7 @@ function Collection() {
         <Row style={{marginTop: 15 }}>
           <Col>
           <Card>
-            <Card.Img variant="top" src={cantheUSbuychinamoon} alt="Picture of text from A Still Photograph of My Childhood" />
+            <Card.Img variant="top" src={cantheUSbuychinamoon} alt="Can the United States buy China Moon? Still from video" />
             <Card.Body>
               <Card.Text>
               Christina Shen.
@@ -324,7 +575,7 @@ function Collection() {
         <Row style={{marginTop: 15 }}>
         <Col>
           <Card>
-            <Card.Img variant="top" src={window} alt="Picture of text from Open Window at 3PM When I Was Seven."/>
+            <Card.Img variant="top" src={window} alt="Text from Open Window at 3PM When I Was Seven."/>
             <Card.Body>
               <Card.Text>
               Maya Salameh.
@@ -338,7 +589,7 @@ function Collection() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src={gentleman} alt="Picture of text from A GENTLEMAN IS SIMPLY A PATIENT WOLF."  />
+            <Card.Img variant="top" src={gentleman} alt="Text from A GENTLEMAN IS SIMPLY A PATIENT WOLF."  />
             <Card.Body>
               <Card.Text>
               Maya Salameh.
@@ -352,7 +603,7 @@ function Collection() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src={artery} alt="Picture of text from How to Braid an Artery." />
+            <Card.Img variant="top" src={artery} alt="Text from How to Braid an Artery." />
             <Card.Body>
               <Card.Text>
               Maya Salameh.

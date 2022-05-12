@@ -1,5 +1,5 @@
 import React from "react";
-import abipic from '../assets/abiportrait.jpg'
+import abipic from '../assets/contributors/abiportrait.jpg'
 
 function About() {
   return (
