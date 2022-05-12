@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/capstone/static/css/main.d940ad14.css",
-    "main.js": "/capstone/static/js/main.10d1a2f7.js",
+    "main.js": "/capstone/static/js/main.ab336497.js",
     "static/js/787.3ecd7fac.chunk.js": "/capstone/static/js/787.3ecd7fac.chunk.js",
     "static/media/rachelculturalphotoshoot.jpg": "/capstone/static/media/rachelculturalphotoshoot.33ee3f5049b7a50f10a2.jpg",
-    "static/media/awaculturalphotoshoot.jpg": "/capstone/static/media/awaculturalphotoshoot.a1144ca9a9b9731b5e4b.jpg",
+    "static/media/walmartparking.jpg": "/capstone/static/media/walmartparking.534861685d6d42c898b7.jpg",
+    "static/media/awaculturalphotoshoot.jpg": "/capstone/static/media/awaculturalphotoshoot.03fa27727b75a4eb8bd8.jpg",
     "static/media/vines1.jpg": "/capstone/static/media/vines1.5c9351bf97a2a8a1fd04.jpg",
     "static/media/christinashen.jpg": "/capstone/static/media/christinashen.2aed87fdc611a600ef5c.jpg",
+    "static/media/ahumandoelcorazon.jpg": "/capstone/static/media/ahumandoelcorazon.ef5c184442862ad0a19a.jpg",
     "static/media/victoriachiek.jpg": "/capstone/static/media/victoriachiek.bc84860106ae4300f74a.jpg",
-    "static/media/matthew.jpg": "/capstone/static/media/matthew.343cf00af919a4a5af1e.jpg",
+    "static/media/matthew.jpg": "/capstone/static/media/matthew.3c2dbca98e5b27f72669.jpg",
     "static/media/vanessaveak.jpg": "/capstone/static/media/vanessaveak.d347a383da6f34ec0c6c.jpg",
     "static/media/respeto5.jpg": "/capstone/static/media/respeto5.13f299088ef38c1ea319.jpg",
     "static/media/respeto10.jpg": "/capstone/static/media/respeto10.04c5e0fdf8d18b34b4af.jpg",
@@ -17,14 +19,12 @@
     "static/media/respeto1.jpg": "/capstone/static/media/respeto1.91562e5dbbbc342d686f.jpg",
     "static/media/respeto8.jpg": "/capstone/static/media/respeto8.7cd5fe7b5c7894228c6e.jpg",
     "static/media/trishalitong.jpg": "/capstone/static/media/trishalitong.2b03bc33230036c1bf42.jpg",
-    "static/media/walmartparking.jpg": "/capstone/static/media/walmartparking.534861685d6d42c898b7.jpg",
     "static/media/drewvallero.jpg": "/capstone/static/media/drewvallero.1b1c0cc5c6efd78d3fcf.jpg",
     "static/media/respeto2.jpg": "/capstone/static/media/respeto2.f874e2630a87e6f84c84.jpg",
     "static/media/respeto6.jpg": "/capstone/static/media/respeto6.d8867c7d9fbf5278e1ff.jpg",
     "static/media/respeto9.jpg": "/capstone/static/media/respeto9.b3cc311f8c29413d5216.jpg",
     "static/media/mayasalameh.jpg": "/capstone/static/media/mayasalameh.a0a73626f4ab554f11c6.jpg",
     "static/media/respeto3.jpg": "/capstone/static/media/respeto3.b4b8a74e8764eb317bc6.jpg",
-    "static/media/ahumandoelcorazon.jpg": "/capstone/static/media/ahumandoelcorazon.ef5c184442862ad0a19a.jpg",
     "static/media/respeto7.jpg": "/capstone/static/media/respeto7.6f26de9d9abbf6a2f3a2.jpg",
     "static/media/immigrantties.jpg": "/capstone/static/media/immigrantties.3c2239f20104799917d0.jpg",
     "static/media/TLitong_RBA.pdf": "/capstone/static/media/TLitong_RBA.ede0156308508f4f5505.pdf",
@@ -33,10 +33,10 @@
     "static/media/vines3.JPG": "/capstone/static/media/vines3.63e3521d035d441ae6bc.JPG",
     "static/media/rachelkoo.jpg": "/capstone/static/media/rachelkoo.5dd9e188222c72972d9a.jpg",
     "static/media/vines4.JPG": "/capstone/static/media/vines4.34bb56fd0870bff101f7.JPG",
+    "static/media/untitledpainting.jpg": "/capstone/static/media/untitledpainting.c869465283fd69708392.jpg",
     "static/media/untitledpaintingdoc.pdf": "/capstone/static/media/untitledpaintingdoc.66f4a6957fc29b95bef8.pdf",
     "static/media/immigranttiesdoc.pdf": "/capstone/static/media/immigranttiesdoc.39820de52eea9a22d64f.pdf",
     "static/media/vines2.JPG": "/capstone/static/media/vines2.e4831cbeb5b0bb370c70.JPG",
-    "static/media/untitledpainting.jpg": "/capstone/static/media/untitledpainting.c869465283fd69708392.jpg",
     "static/media/elviraprieto.jpg": "/capstone/static/media/elviraprieto.4615ddf4aaf204e086e8.jpg",
     "static/media/mayagentlemanwolf.jpg": "/capstone/static/media/mayagentlemanwolf.4bf90b1fecbeb1377f9d.jpg",
     "static/media/vines5.jpeg": "/capstone/static/media/vines5.d5ef8a3be29cd6eeee75.jpeg",
@@ -57,11 +57,11 @@
     "static/media/bluegirldoc.pdf": "/capstone/static/media/bluegirldoc.eded2f457216e813252f.pdf",
     "index.html": "/capstone/index.html",
     "main.d940ad14.css.map": "/capstone/static/css/main.d940ad14.css.map",
-    "main.10d1a2f7.js.map": "/capstone/static/js/main.10d1a2f7.js.map",
+    "main.ab336497.js.map": "/capstone/static/js/main.ab336497.js.map",
     "787.3ecd7fac.chunk.js.map": "/capstone/static/js/787.3ecd7fac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d940ad14.css",
-    "static/js/main.10d1a2f7.js"
+    "static/js/main.ab336497.js"
   ]
 }
